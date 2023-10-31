@@ -1,9 +1,56 @@
 body
 {
-    background-color: rosybrown;
+    background-color: #161626;
 }
 
-.paras
+.heading
 {
-    color: brown;
+    color: white;
+    text-align: center;
+}
+
+form
+{
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+label
+{
+    display: block;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+input 
+{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button 
+{
+    display: block;
+    width: 105%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bbb;
 }

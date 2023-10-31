@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -10,15 +12,15 @@
         <title>Authentication</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="{% static 'css/indexstyle.css'%}">
     </head>
     <body>
-        <h3>Welcome to the Login Page</h3>
-        
-        <button type = "submit"><a href = "/signup">SignUp</a></button>
-        <button type = "submit"><a href = "/signin">SignIn</a></button>
-        <button type = "submit"><a href = "/signout">SignOut</a></button>
-
+        <h2 class="main">Welcome to the Login Page</h2>
+        <div class="container">
+            <button type = "submit"><a href = "/signup">SignUp</a></button>
+            <button type = "submit"><a href = "/signin">SignIn</a></button>
+            <button type = "submit"><a href = "/signout">SignOut</a></button>
+        </div>
         <script src="" async defer></script>
     </body>
 </html>
