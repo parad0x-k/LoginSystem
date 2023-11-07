@@ -1,0 +1,33 @@
+# Byte-compiled Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django related files
+db.sqlite3
+media/
+staticfiles/
+
+# Logs and error files
+*.log
+*.swp
+
+# Site specific settings
+*.conf
+
+# IDE files
+.vscode/
+*.idea/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore sensitive information like secret keys
+secret_key.txt
+
+# Ignore Django generated files
+*.DS_Store

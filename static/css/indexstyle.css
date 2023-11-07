@@ -1,34 +1,45 @@
-body
-{
+body {
     background-color: #161626;
 }
 
-.main
-{
+.main {
     color: white;
     text-align: center;
 }
 
-button 
-{
+button {
     display: block;
-    width: 5%;
-    padding: 10px;
-    margin-top: 10px;
+    width: 100%; /* Make the buttons take up full width of the container */
+    padding: 10px 0; /* Center the button text vertically */
     background-color: #0073e6;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 15px;
+    font-size: 15px;
     cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; /* Center the button text horizontally */
+    text-decoration: none; /* Remove underline for links inside buttons */
 }
 
-button:hover 
-{
+button:hover {
     background-color: #005bbb;
 }
 
-.container
-{
+.container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    max-width: 200px; /* Set a fixed width for the container */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button a {
+    color: inherit; /* Inherit the text color from the button */
+    text-decoration: none; /* Remove underline from the links */
 }
